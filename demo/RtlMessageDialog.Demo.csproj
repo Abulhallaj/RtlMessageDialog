@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>RtlMessageDialog.Demo</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- The whole library is this single file -->
+    <Compile Include="..\src\MessageForm.cs" Link="MessageForm.cs" />
+  </ItemGroup>
+
+</Project>
